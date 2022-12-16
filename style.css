@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.timer {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 23px 32px;
+    border-radius:30px;
+    /* set a semi-transparent background so you can still see the image*/
+}
+
+.timer__part {
+    font-size:100px;
+    color: white;
+}
+
+/* figure out how to make buttons bigger and move them under the timer */
+.timer__btn{
+    width:100px;
+    height: 100px;
+    margin-left: 32px;
+    /*border-radius:50%;*/
+    border: none;
+    font-size: 100px;
+    /*background:none;*/
+    cursor: pointer;
+    color:white;
+    /*background-size: 100px;*/
+    /*opacity: 50%;*/
+}
+
+
+/* find more pleasing colors to use */
+.timer__btn--start{
+    color:green;
+    background:none;
+}
+
+.timer__btn--reset{
+    color:red;
+    background:none;
+}
+
+
+
