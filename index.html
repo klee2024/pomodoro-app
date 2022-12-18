@@ -9,9 +9,23 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+    <header class = "header">
+        <h1>Pomodoro Timer</h1>
+    </header>
     <div class = "timer">
+        <span class =  "timer timer--minutes">00</span>
+        <span class = "timer">:</span>
+        <span class = "timer timer--secs">00</span>
     </div>
-    <!--need separate elements for timers and labels -->
+
+    <div class = "timer-buttons">
+        <button class="btn">
+            <i class="material-icons">play_circle</i>
+        </button>
+        <button class="btn">
+            <i class="material-icons">restart_alt</i>
+        </button>
+    </div>
     <script src="script.js" type = "module"></script>
 </body>
 </html>

@@ -23,6 +23,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 23px 32px;
     border-radius:30px;
+    white-space: pre-wrap;
     /* set a semi-transparent background so you can still see the image*/
 }
 
@@ -30,24 +31,25 @@ body{
     font-size:100px;
     color: white;
 }
-
+*/
 /* figure out how to make buttons bigger and move them under the timer */
+/*
 .timer__btn{
     width:100px;
     height: 100px;
     margin-left: 32px;
     /*border-radius:50%;*/
-    border: none;
-    font-size: 100px;
+    /*border: none;*/
+    /*font-size: 100px;
     /*background:none;*/
-    cursor: pointer;
-    color:white;
+    /*cursor: pointer;
+    color:white;*/
     /*background-size: 100px;*/
-    /*opacity: 50%;*/
-}
+    /*opacity: 50%;}
 
 
 /* find more pleasing colors to use */
+/*
 .timer__btn--start{
     color:green;
     background:none;
@@ -57,6 +59,6 @@ body{
     color:red;
     background:none;
 }
-
+*/
 
 
