@@ -9,23 +9,37 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <header class = "header">
-        <h1>Pomodoro Timer</h1>
-    </header>
-    <div class = "timer">
-        <span class =  "timer timer--minutes">00</span>
-        <span class = "timer">:</span>
-        <span class = "timer timer--secs">00</span>
+    <div class="main-container center">
+        <!-- everything inside here will be centered-->
+
+        <!-- header -->
+        <header class = "header">
+            <h1>pomototoro</h1>
+        </header>
+        <!-- timer -->
+        <div class = "timer-container center">
+            <!-- font is different for default - need to fix that-->
+            <div class="timer center">25:00</div>
+        </div>
+
+        <!--buttons-->
+        <div class = "timer-buttons">
+            <button id="start">
+                <i class="material-icons" style="font-size: 0.5em;">play_circle</i>
+            </button>
+            <button id="pause">
+                <i class="material-icons" style="font-size: 0.5em;">pause_circle</i>
+            </button>
+            <button id="reset">
+                <i class="material-icons" style="font-size: 0.5em;">restart_alt</i>
+            </button>
+        </div>
+
     </div>
 
-    <div class = "timer-buttons">
-        <button class="btn">
-            <i class="material-icons">play_circle</i>
-        </button>
-        <button class="btn">
-            <i class="material-icons">restart_alt</i>
-        </button>
-    </div>
-    <script src="script.js" type = "module"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+<footer>
+    <a ahref = "https://www.pinterest.co.kr/pin/603763893785778061/">background image</a>
+</footer>
 </html>
